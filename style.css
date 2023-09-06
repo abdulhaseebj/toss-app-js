@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+body{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./assets/bg-2.jpeg);
+    
+    
+}
+.head{
+    margin-top: 30px;
+    font-size: 80px;
+    letter-spacing: normal;
+    color: aliceblue;
+    
+}
+.head-1{
+    color: aliceblue;
+    letter-spacing: 4px;
+    font-size: larger;
+}
+.btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 20px;
+    
+
+}
+.pera{
+    color: aliceblue;
+    font-size: 40px;
+    margin-top: 20px;
+}
