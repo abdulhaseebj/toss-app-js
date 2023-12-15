@@ -7,34 +7,35 @@
 body{
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    background-image: url(./assets/bg-2.jpeg);
-    
-    
 }
-.head{
-    margin-top: 30px;
-    font-size: 80px;
-    letter-spacing: normal;
-    color: aliceblue;
-    
-}
+
 .head-1{
-    color: aliceblue;
     letter-spacing: 4px;
     font-size: larger;
+    margin-top: 50px;
 }
-.btn{
-    margin-top: 30px;
-    margin-bottom: 30px;
+.head{
     padding: 10px 20px 10px 20px;
     cursor: pointer;
     font-size: 25px;
-    border-radius: 20px;
-    
-
+    margin-top: 10px;
+}
+.tail{
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 10px;
 }
 .pera{
-    color: aliceblue;
     font-size: 40px;
     margin-top: 20px;
+}
+.coin-img{
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+}
+.choice{
+    margin-top: 10px;
+    font-size: 20px;
 }

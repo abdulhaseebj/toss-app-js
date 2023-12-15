@@ -1,27 +1,40 @@
-const img = document.querySelector('img');
-const p = document.querySelector('p');
-function masjid() {
+// const img = document.querySelector('.coin-img');
+const p = document.querySelector('.pera');
+const choice = document.querySelector('.choice');
+const coin = document.querySelector('.coin');
+function heads() {
     const randomNumber = Math.ceil(Math.random() * 2)
     // console.log(randomNumber);
     if (randomNumber === 1) {
-        p.innerHTML = 'Hurrah! You won the toss';
-        img.src = './assets/download.jpeg'
+        p.innerHTML = 'You won the toss';
+        choice.innerHTML = 'You choose Head'
+        coin.innerHTML = '<img class="coin-img" src="./assets/head.png" alt="">'
+
+        
 
     } else {
-        p.innerHTML = 'Sorry! You loss the toss';
-        img.src = './assets/download (1).jpeg'
+        p.style.color = 'Red'
+        p.innerHTML = 'You loss the toss';
+        choice.innerHTML = 'You choose Head'
+        coin.innerHTML = '<img class="coin-img" src="./assets/tails.png" alt="">'
     }
 
 }
-function chand() {
+function tail() {
     const randomNumber = Math.ceil(Math.random() * 2)
     // console.log(randomNumber);
     if (randomNumber === 1) {
-        p.innerHTML = 'Sorry! You loss the toss';
-        img.src = './assets/download.jpeg'
+        p.style.color = 'Red'
+        p.innerHTML = 'You loss the toss';
+        choice.innerHTML = 'You choose Tail'
+        coin.innerHTML = '<img class="coin-img" src="./assets/head.png" alt="">'
+
     } else {
-        p.innerHTML = 'Hurrah! You won the toss';
-        img.src = './assets/download (1).jpeg'
+        p.innerHTML = 'You won the toss';
+        choice.innerHTML = 'You choose Tail'
+        coin.innerHTML = '<img class="coin-img" src="./assets/tails.png" alt="">'
+
+        
     }
 
 }
